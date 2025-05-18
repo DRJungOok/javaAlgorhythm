@@ -28,6 +28,5 @@ static Integer[][] dp = new Integer[41][2];
 			dp[N][1] = fibonacci(N - 1)[1] + fibonacci(N - 2)[1];
 		}
 		return dp[N];
- 
 	}
 }
